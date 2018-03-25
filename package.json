@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-users-crud",
+  "version": "1.0.0",
+  "description": "Create, read, update, users via mongodb and handlebars template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "prod": "node server"
+  },
+  "keywords": [
+    "users",
+    "crud",
+    "mongodb"
+  ],
+  "author": "Hovik Antanisyan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.11",
+    "nodemon": "^1.17.2"
+  }
+}
